@@ -25,6 +25,8 @@ function App() {
         <Myself />
         <Connect />
         <Footer />
+
+        {/* add more compos */}
       </div>
     </>
   );
