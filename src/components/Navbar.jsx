@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <>
@@ -77,19 +79,24 @@ const Navbar = () => {
           <div className="menu">
             <ul className="flex navigation">
               <li>
-                <a href="#">Home</a>
+                {/* <a href="/">Home</a> */}
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="#skills">Skills</a>
+                {/* <a href="/skills">Skills</a> */}
+                <Link to="/skills">Skills</Link>
               </li>
               <li>
-                <a href="#portfolio">Portfolio</a>
+                {/* <a href="/portfolio">Portfolio</a> */}
+                <Link to="/portfolio">Portfolio</Link>
               </li>
               <li>
-                <a href="#myself-link">About</a>
+                {/* <a href="/about">About</a> */}
+                <Link to="/about">About</Link>
               </li>
               <li>
-                <a href="#connect">Contact</a>
+                {/* <a href="/connect">Contact</a> */}
+                <Link to="/connect">Contact</Link>
               </li>
             </ul>
           </div>

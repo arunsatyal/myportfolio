@@ -22,7 +22,7 @@ const Hero = () => {
               download="name-resume"
               target="_black"
               rel="noreferrer"
-              className="btn-black"
+              className="btnblack"
             >
               Download Resume
             </a>
